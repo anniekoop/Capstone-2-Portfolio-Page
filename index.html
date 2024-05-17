@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Portfolio Page</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="nav-left">
+                    <img class="logo-img" src="images/logo.webp" alt="Logo">
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-links">
+                        <li>
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://anniekoop.github.io/resume/">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-headers">
+                        <h1 class="hero-header bold">Annie Koop,</h1>
+                        <h1 class="hero-header">Product Designer</h1>
+                    </div>
+                    <img src="images/hero.jpg" alt="Annie Koop, product designer" class="hero-img">
+                    <p class="hero-summary"><span class="summary-bold">Hi, I'm Annie.</span><br>I build experiences that delight users and solutions that benefit brand development.</p>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <div class="container">
+                <h2 class="section-header">Selected work</h2>
+                <div class="featured-projects">
+                    <div class="featured-column">
+                    <a class="project-link-wrap" id="ads-link" href="https://anniekoopdesign.com/case-studies/atomic-design-system" target="_blank">
+                        <div class="project-wrap">
+                            <div class="img-wrap" id="ads-img-wrap">
+                                <img src="images/ads.webp" id="ads-img" alt="Preview of Atomic Design System" class="project-img">
+                                <img class="arrow-icon" id="arrow-ads" src="data:image/png;base64,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">
+                            </div>
+                            <div class="project-text">
+                                <h3 class="project-title">Atomic Design System</h3>
+                                <p class="project-description">A full-force design system built for a UX-centric blog, organized according to atomic design principles.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="project-link-wrap" id="ssn-link" href="https://anniekoopdesign.com/case-studies/sweet-science-nutrition" target="_blank">
+                        <div class="project-wrap">
+                            <div class="img-wrap" id="ssn-img-wrap">
+                            <img class="project-img" id="ssn-img" src="images/ssn.webp" alt="Preview of Sweet Science Nutrition's website">
+                            <img class="arrow-icon" id="arrow-ssn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKyklEQVR4nO2d+3cU5RnHB2x7avsX9BxbL5mJPf5AL9mZRAWDQgWR7Psmp7GQcKcC4aIIQg8hkAiKyMXiHQS2GChSbAgEyQW5JoEgVJAIFbDcqpXakwolV0KSt+c7m2HfHTZr9jKzs7PzOWfOgc3OO5fvvrfned7nFQQHBwcHBwcHB9PIzr4jWcm4V1To48lK5jRRIa9JMvVICtkqyWS3qJBaHPi39zPqkWSyyvtdnJNxryAU9nUUC5OfpAz/keRyDxYVsliUSY2k0DZJoSyiQyatokyrJYUuSpbJIFzDESgI/fr95seii46SFFIhKqQ9YgG+4xAVckNUSLkoZ+bi2o443UgKGSApZKOo0KZgL/D+tEyW7n6ajZ1eyIqWrWGvv/s+W7uxlG0prWJllQfVA//GZ/hb4Sur1e/inOTUzODiyKRRkmlxcirtn7DCdDdJtT29pF8/lsMmzXqRrd+0nZ08dY613Whn4YJzUca6TaVqmSg7SM2pFV0kQxCEPkIigIcVZVof6GW4Bo1iC15+hx07cZp1dHYyo0DZR4+fYgVL3lavGbjW0JOSkvmkYFckV9Z9kkJ2Bnr4MdMWso8OHGE3IqgF4YJr7t5fx0ZPXdDDYIDu8I7SbEJKyqTviwotxChH3ydMnv0SO/HZWWYVTp85z+YUvcZ+npalH6G1iApdiGcR4hnv3IF8HKhGnDt/mVmVs/+4xEbnBagxMqm758Gsu4V4RHLRLEmhV/kHenjYBFZavp/FC/tqjqmjNF0T9q0kuzOFOKKPKNPl+l8XOuvmllYWbzQ1t7D5S97S15YuUSbLLD8SS09P/54kk/X8zf9y4Ei2s6qaxTtV++pYyqBcnTBkk2X7Fcx2Mcvmb5iMnsUuf3mF2YWL//yauUc9pxelwnIzfa8Y9BB/oxhGNjY1M7vR3NLKJjzzgr4JO2QZUbzDWlLO3+DUuUsjmllbnfb2m2zm/BW6GT7d88AD2T+IsRyFfdGO8je2cOk7rLOzi9mdzs4udaCiG4EVx7SjFxW6gr8h/GoSQQyNrq4uNqdwlb75WhrLeYZfnxEL00esuXmzQ9+ndCUplJgqxn0pw38myuS//GgqHucY0ZyrZOTO5EW5en8quce0TlxSyGHt4r9IH8EuXPqKJTqXvvya/epRn1kfJiNTOnnVUMg1VXAMOXjZ9VGtvpMvMFaMFJrEW20xynDwJ/8lzswikxZDTfe8P2PA8IkJ3W8E60/6PzmRd3SVGiJGUqrbzVdHVE+HwKAZ599Vsos+YYQFt573ZzgEh/eniDL5NKoTRvjBeU+flZ1LVuHMFxf9ol2S5MyhUROENxxO+8PSWD9r3DBl9hK+L6mOjhiy+xG+PbSSD9zqIPTIry9JyXo4CrXDZzxE4Fm80Np2g135poF9fu4iO3z0JPtwdw3b9EE5e33tFrZoxVo2a8Grqskja9zz6lD12vVGQ+5j1JQCfrK4IfLwTkT1dReIcJlYc+1/jar3LtDLpaNnqT7wfukjegyE6+lAjJYRVO47zJvomyLym3hjbX1BbLE2Hl75poE9OHRcyC+7N8dvx8815J7hF/Jz/aZmjghbEN4lCz9HrPH8eYchYuAYP6PIsPvOf/FNfgj8YVhiIFwfEeJaQQjvjDV7qj8O+UUj6C1tyFg29Knp7DE6ucfvPVew0rD7rvtbPX+ttrvSsu8MvXa43IO1QhCcbGSsbSis3lDCsifMZSOensfy5rys/vpWvFWsBmWX7NzL9lYfZcfrz7CLl//Frl673uvahb7IKDo6OvwswUmK+9GQBcFiGa0AhHzGM57N393UvbHuL4bew8SZi3zXk0lR6IJ4Vy6pBeDXZzcxBron+f0fozYjWfNeCXc9ciA0NbKz7+DN7PWnv2B2EmP1hhI25KlpzExj6aenzvI1pCWkNY+w4fO2K0yy7CQGUB4f4/c5Jo9GgneId6ldL6Sg7SSZDNFOxETLbmJ0dnbdtuQAM3qjgQ/p1jVd7sG9FkSSyQztxHFxZC7pjRgAoy/93//9nwZmNPyiINFFpoYgCP2jdiIWWNpJDICgDP13zIi0xOT6liAKWdlrQUSF/kk7EfYiO4kBPjn5ud93EDljBqvWbOY6duoJpYb8NZ6GvJ4QxAg04zern8SSbW7ou7X3gii0Ujvx/W2VzE5igA/K9vh9N3PMbGYGm0sqeUEqQmiyfOvHd1QctJUYt/9SqWq6NwO8S64PqbWVIJ4wxQDL3yz2O2f2wletLYjVmyxPBGLozeE4Fq80zrAYlSbLyp26J0IxQN7zvuADMwyLEXfqVh32eqIgBoDp3kzDYuBhL1kf1xNDT5TEAHDX8mXA720GYU8MJYVOt5LpxBNFMcC7xdtulfHQE+MMizgJajqRaV5cGhc9URaDnxyibDNsWBEbF61ifvcYJEYsaGlt8wstDS1nigUcVB4biRGxg0rvwkUmNjPx2EwMgHv3CUL3hySGPsgBafHMwmNDMcDEZ1+ILMgBqVTNDgPy2FQMhAEhCY/2PEmpZGB4uXO5fLnIUWgkdhUD1B2LQqCcPpTUqGBkvdFN4g4Et9mBeYvf4J+rTAgXJBk2I9g6Z/J824rRpgu2TnaR31l+OYLfUmLFPmKAir2H+Nn59YhTnCPrtFYgpv5GrfmAKDmT59suEUHuFF/th9E2IjG6BRnA/3oRyOwQxmQQoysXeUiIBrwHERHnDr0D8zeudhwUogVSbvO2LeS1dQjO389e0C2LJkOiJohXFHpcK3zkpHw1eZdDYPBu/Bd70hNRzzTH1xIcWNXqEJjt5Qf8+45o1w6fKLSMd+zYMetoNJLPIIO3r3aQEsHITHKSQpu1iyHjs0OQWblMWgzPLIddAvjqiOrp4GXX7hqdxYHkC6akE+dynzgp/npI8SfTI6alIU9ykZ+KCmnQLo7022g7E5XGpmY2PIdLginTb01LgqmRrBCKlKi3zCp5iZkmtr39phqZwzVVXd17WJmPJNNX+DYTs3irrGc3AyyNezZ/uV+/IcpkiRBD+iC9Nn9DSIyZqKnGRZm+F/M9RZxk/FQTY5dl9hIJuF1Fnn23qxg/o8i621X4ObN021Yg/TY2QbELFy595T+a8s7Eyy0nhv+WR3Qdf8OItrDqop9QPX+37xBKNlqmmQpCH2zZwA+JccAjGI9zlcamZn2Qgndo6x1NWXtTMB5s2cDvoKAaJIeNV7fNixfT/b6aY+yRjN/rm6iGmM0zIgUBxfxOCtoBXwHy2lrZuZQTIBIGnlNYKYR4Rt3eQqYFsHzyDwdvGvJwWclHf+rMefbMvGWBtvtuhqEQfaRgF2DbkWSyXf+r04bIWMXUFgPTC66JDpv38PnXCrotbrdb7Q1SKhkGl2agh08ZlKuukD3yyWdqPKxRoGyEd6KzDrK3+nHDPH1WJDmV9u9pO2+pe7iMtHhYfoZwmkgWDWGxDDJyI6sbyoTLoKfrJtwG94GEgQ0IUX1SDy9J63Mw4sHODFg8iRWteMFbSqvU4Doc+Dc+w9/wHQT24ZwAfYLeBnUd9xCVVOB2oTvafiTy2vJR94Yd3hViZUhsHHY0eqJwV1r2nUilioUtCDDTj9DCFKAFySfVMl00/e70sT+M9XPGMYV91TmNyz0YmdjUdfSqiYZslWRSpbb7iK6USZX3M7oO38HSY5zjHSWFuKbPwcHBwcHBwUGIgP8DWXS2zj3dUogAAAAASUVORK5CYII=">
+                            </div>
+                            <div class="project-text">
+                                <h3 class="project-title">Sweet Science Nutrition</h3>
+                                <p class="project-description">A complete redesign and development for a dietician service, focused on accessibility and brand identity.</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="featured-column">
+                    <a class="project-link-wrap" id="phoebe-link" href="https://anniekoopdesign.com/case-studies/phoebe" target="_blank">
+                        <div class="project-wrap">
+                            <div class="img-wrap">
+                            <img class="project-img" id="phoebe-img" src="images/phoebe.webp" alt="Preview of the user interface of Phoebe">
+                            <img class="arrow-icon" id="phoebe-arrow" src="data:image/png;base64,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">
+                            </div>
+                            <div class="project-text">
+                                <h3 class="project-title">Phoebe</h3>
+                                <p class="project-description">A conceptualization of a more immersive and interactive language-learning app, geared towards young adults and teens.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="project-link-wrap" id="bridge-link" href="https://anniekoopdesign.com/case-studies/bridge-network" target="_blank">
+                        <div class="project-wrap">
+                            <div class="img-wrap">
+                            <img class="project-img" id="bridge-img" src="images/bridge.webp" alt="Preview of Sweet Science Nutrition's website">
+                            <img class="arrow-icon" id="bridge-arrow" src="data:image/png;base64,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">
+                            </div>
+                            <div class="project-text">
+                                <h3 class="project-title">Bridge Network</h3>
+                                <p class="project-description">A responsive digital volunteer network, created for the final 3 courses of Google's UX Design program.</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="about-wrap">
+                    <div class="about-left">
+                        <h2 class="section-header about">About Me</h2>
+                        <div class="about-paragraphs">
+                        <p class="about-text">
+                            <span class="about-text-top">Nice to meet you!</span><br>I'm Annie, a product and UX designer based in Salt Lake City.
+                        </p>
+                        <p class="about-text">In 2021, I moved to London to study journalism at Roehampton University. As an international student, I contributed articles to female-led lifestyle publications across Great Britain. I gained valuable experience during my years there, but ultimately decided that journalism was not the career path for me.</p>
+                        <p class="about-text">After exploring more technical fields, I came across the Google UX Design program, which challenged me in ways that I had been looking for in previous fields. I spent six months learning from the 7 UX courses, and after earning my certificate, I picked up other skillsets that improved my work. Currently, I do most of my work in Figma, Visual Studio Code, Webflow, and Creative Cloud.</p>
+                        </div>
+                        <button class="resume-btn" id="resume-btn" href="#">View resume</button>
+                    </div>
+                    <div class="about-right">
+                        <img src="images/about.jpeg" alt="Author visiting Hamburg, Germany" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-wrap">
+                    <div class="contact-left">
+                        <h2 class="section-header about">Contact</h2>
+                        <p class="about-text">If you're looking to create or improve your website's user experience or visual design, send me a message and I'll be in touch. 🌟</p>
+                        <div class="social-container">
+                            <a class="social-link" href="https://linkedin.com/in/anniekoop" target="_blank">
+                                <img src="svg/linkedin.svg" class="social-icon">
+                            </a>
+                            <a class="social-link" href="https://behance.net/anniekoop" target="_blank">
+                                <img src="svg/behance.svg" class="social-icon behance">
+                            </a>
+                            <a class="social-link" href="https://figma.com/@anniekoop" target="_blank">
+                                <img src="svg/figma.svg" class="social-icon">
+                            </a>
+                            <a class="social-link" href="https://anniekoopdesign.com" target="_blank">
+                                <img src="svg/globe.svg" class="social-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form id="contact-form" type="POST" action="mailto:anniebkoop@gmail.com" class="contact-form">
+                            <input id="name" placeholder="Your name" required />
+                            <input id="email" type="email" placeholder="Your email" required />
+                            <textarea id="message" placeholder="Your message" required></textarea>
+                            <button id="submit-btn" class="submit-btn" type="submit">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
