@@ -143,10 +143,10 @@
                         </div>
                     </div>
                     <div class="contact-right">
-                        <form id="contact-form" type="POST" action="mailto:anniebkoop@gmail.com" class="contact-form">
-                            <input id="name" placeholder="Your name" required />
-                            <input id="email" type="email" placeholder="Your email" required />
-                            <textarea id="message" placeholder="Your message" required></textarea>
+                        <form id="contact-form" method="POST" action="contact.php" class="contact-form">
+                            <input id="name" name="name" placeholder="Your name" required />
+                            <input id="email" name="email" type="email" placeholder="Your email" required />
+                            <textarea id="message" name="message" placeholder="Your message" required></textarea>
                             <button id="submit-btn" class="submit-btn" type="submit">Send message</button>
                         </form>
                     </div>
