@@ -86,3 +86,11 @@ resumeBtn.addEventListener('click', function(event) {
     event.preventDefault();
     window.open('https://anniekoop.github.io/resume/', '_blank');
 })
+
+const urlParams = new URLSearchParams(window.location.search);
+    const success = urlParams.get('success');
+
+    // If the success parameter is present, show the success alert
+    if (success === 'true') {
+        alert('Your message has been sent successfully!');
+    }
